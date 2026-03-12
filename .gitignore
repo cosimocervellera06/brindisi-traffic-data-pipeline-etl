@@ -1,0 +1,22 @@
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Project Logs
+*.log
+docs/analysis/raw_dataset_report.txt
+
+# Database & Secrets
+.env
+config/pg_hba.conf
+
+# Large Data Files
+data_raw/
+docs/analysis/*.json
+
+# IDE Settings
+.vscode/
+.idea/
